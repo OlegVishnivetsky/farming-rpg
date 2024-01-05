@@ -32,7 +32,6 @@ public static class Settings
 
     // Shared animation parameters
     public static int IdleUp;
-
     public static int IdleDown;
     public static int IdleLeft;
     public static int IdleRight;
