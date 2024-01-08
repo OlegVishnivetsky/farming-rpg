@@ -2,6 +2,10 @@ using UnityEngine;
 
 public static class Settings
 {
+    public const float fadeInDuration = 0.25f;
+    public const float fadeOutDuration = 0.35f;
+    public const float targetAlpha = 0.4f;
+
     // Player animation parameters
     public static int InputX;
     public static int InputY;
