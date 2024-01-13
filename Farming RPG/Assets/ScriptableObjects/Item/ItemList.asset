@@ -1,0 +1,304 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f35b81ef5e890234984e8e10fefd0d0a, type: 3}
+  m_Name: ItemList
+  m_EditorClassIdentifier: 
+  itemDetails:
+  - Id: 1
+    Type: 0
+    Description: Canyon Oak Acorn
+    LongDescription: From small acorns do large oak trees grow. One day this humble
+      acorn could be a towering giant
+    Sprite: {fileID: 21300000, guid: 730e572c78cf0244ca0db36bb8f3af7f, type: 3}
+    UsingGridRadius: 2
+    UsingRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - Id: 2
+    Type: 1
+    Description: Pumpkin
+    LongDescription: 
+    Sprite: {fileID: 21300000, guid: f0d720006ae6c9e468cc99a9f1713ba1, type: 3}
+    UsingGridRadius: 2
+    UsingRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+  - Id: 3
+    Type: 1
+    Description: Corn
+    LongDescription: 
+    Sprite: {fileID: 21300000, guid: 081b5033ea188cb48b5d44b99ab920bc, type: 3}
+    UsingGridRadius: 2
+    UsingRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+  - Id: 4
+    Type: 2
+    Description: A Basic Watering Can
+    LongDescription: 
+    Sprite: {fileID: 21300136, guid: 853ac38383c680342ac7e688bf29b197, type: 3}
+    UsingGridRadius: 1
+    UsingRadius: 0
+    isStartingItem: 1
+    canBePickedUp: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - Id: 5
+    Type: 3
+    Description: A Basic Hoe
+    LongDescription: 
+    Sprite: {fileID: 21300052, guid: 853ac38383c680342ac7e688bf29b197, type: 3}
+    UsingGridRadius: 1
+    UsingRadius: 0
+    isStartingItem: 1
+    canBePickedUp: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - Id: 6
+    Type: 4
+    Description: A Basic Axe
+    LongDescription: 
+    Sprite: {fileID: 21300010, guid: 853ac38383c680342ac7e688bf29b197, type: 3}
+    UsingGridRadius: 1
+    UsingRadius: 0
+    isStartingItem: 1
+    canBePickedUp: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - Id: 7
+    Type: 0
+    Description: Parsnip Seed
+    LongDescription: 
+    Sprite: {fileID: 21300000, guid: 7da78110e28e0f74aaa3ef4a41f4c0ed, type: 3}
+    UsingGridRadius: 2
+    UsingRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - Id: 8
+    Type: 1
+    Description: Parsnip
+    LongDescription: 
+    Sprite: {fileID: 21300000, guid: 0a1268bf801d5304ebf16458d7309ac1, type: 3}
+    UsingGridRadius: 0
+    UsingRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+  - Id: 9
+    Type: 1
+    Description: Wood
+    LongDescription: 
+    Sprite: {fileID: 21300000, guid: e26dc0d638731ec47abe9c4b3cae62ac, type: 3}
+    UsingGridRadius: 2
+    UsingRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - Id: 10
+    Type: 0
+    Description: Blue Spruce Pine Cone
+    LongDescription: 
+    Sprite: {fileID: 21300000, guid: 5eb84bf51d351da428f95a1296f6a397, type: 3}
+    UsingGridRadius: 2
+    UsingRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - Id: 11
+    Type: 0
+    Description: Canyon Oak Tree Stump
+    LongDescription: 
+    Sprite: {fileID: 7154603021615155856, guid: d241c496741a12d4290e12ba81dd6724, type: 3}
+    UsingGridRadius: 0
+    UsingRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - Id: 12
+    Type: 0
+    Description: Blue Spruce Tree Stump
+    LongDescription: 
+    Sprite: {fileID: -341119608263849502, guid: 5d22327a2a3d2a049a8a59a708d527fe, type: 3}
+    UsingGridRadius: 0
+    UsingRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - Id: 13
+    Type: 7
+    Description: Wicker Basket
+    LongDescription: 
+    Sprite: {fileID: 21300504, guid: 853ac38383c680342ac7e688bf29b197, type: 3}
+    UsingGridRadius: 1
+    UsingRadius: 0
+    isStartingItem: 1
+    canBePickedUp: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - Id: 14
+    Type: 5
+    Description: A Basic Pickaxe
+    LongDescription: 
+    Sprite: {fileID: 21300094, guid: 853ac38383c680342ac7e688bf29b197, type: 3}
+    UsingGridRadius: 1
+    UsingRadius: 0
+    isStartingItem: 1
+    canBePickedUp: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - Id: 15
+    Type: 0
+    Description: Stone 1 Seed
+    LongDescription: 
+    Sprite: {fileID: 21300000, guid: 4fb548784c08c2c40b86a99493efa98d, type: 3}
+    UsingGridRadius: 0
+    UsingRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - Id: 16
+    Type: 1
+    Description: Stone
+    LongDescription: 
+    Sprite: {fileID: 21300000, guid: 7700e9e59e6f58e4598ea8f2e5a84cc1, type: 3}
+    UsingGridRadius: 2
+    UsingRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - Id: 17
+    Type: 0
+    Description: Stone 2 Seed
+    LongDescription: 
+    Sprite: {fileID: 21300000, guid: ffd3a07e9702a614284d1e5a4be9f532, type: 3}
+    UsingGridRadius: 0
+    UsingRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - Id: 18
+    Type: 6
+    Description: A Basic Scythe for Reaping
+    LongDescription: 
+    Sprite: {fileID: 21300506, guid: 853ac38383c680342ac7e688bf29b197, type: 3}
+    UsingGridRadius: 2
+    UsingRadius: 1.5
+    isStartingItem: 1
+    canBePickedUp: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - Id: 19
+    Type: 8
+    Description: Grass1
+    LongDescription: 
+    Sprite: {fileID: 21300000, guid: 207ad99171e171b418bcaaa396d5a6f6, type: 3}
+    UsingGridRadius: 0
+    UsingRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - Id: 20
+    Type: 8
+    Description: Grass2
+    LongDescription: 
+    Sprite: {fileID: 21300000, guid: e452dd2aa629f624390a9ba516a7c47e, type: 3}
+    UsingGridRadius: 0
+    UsingRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - Id: 21
+    Type: 1
+    Description: Weed
+    LongDescription: Weed
+    Sprite: {fileID: 21300000, guid: 25925800440b0e84f9533a314ddca6b5, type: 3}
+    UsingGridRadius: 2
+    UsingRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - Id: 22
+    Type: 8
+    Description: Prickly Cactus
+    LongDescription: Prickly Cactus
+    Sprite: {fileID: 21300000, guid: 37e09848a493a0a4b89a743f73f75963, type: 3}
+    UsingGridRadius: 0
+    UsingRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - Id: 23
+    Type: 9
+    Description: Chair
+    LongDescription: Chair
+    Sprite: {fileID: 21300000, guid: 2a61f48c8f2dfed4da6f2f8e2485ee15, type: 3}
+    UsingGridRadius: 0
+    UsingRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - Id: 24
+    Type: 9
+    Description: Table
+    LongDescription: Table
+    Sprite: {fileID: 21300000, guid: 60f7a57556be87841a8cabc94054df28, type: 3}
+    UsingGridRadius: 0
+    UsingRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
